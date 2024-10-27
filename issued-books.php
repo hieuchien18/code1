@@ -76,7 +76,7 @@ header('location:manage-books.php');
                                     <tbody>
 <?php 
 $sid=$_SESSION['stdid'];
-$sql="SELECT Server=tcp:qlnt-server.database.windows.net,1433;Initial Catalog=dbqltv;Persist Security Info=False;User ID=qlnt_admin;Password=Admin123@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+$sql="SELECT Server=tcp:qltv1.database.windows.net,1433;Initial Catalog=qltv1;Persist Security Info=False;User ID=admin123;Password=Admin123@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 $query = $dbh -> prepare($sql);
 $query-> bindParam(':sid', $sid, PDO::PARAM_STR);
 $query->execute();
