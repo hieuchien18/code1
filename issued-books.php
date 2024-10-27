@@ -4,7 +4,7 @@ error_reporting(E_ALL); // Bật báo lỗi để giúp việc gỡ lỗi
 ini_set('display_errors', 1); // Hiển thị lỗi trên trình duyệt
 
 // Kết nối đến cơ sở dữ liệu
-$serverName = "tcp:qlnt-server.database.windows.net,1433"; // Tên máy chủ
+$serverName = "tcp:qltv1.database.windows.net,1433";
 $database = "qltv1"; // Tên cơ sở dữ liệu
 $username = "admin123"; // Tên người dùng
 $password = "Loan2002@"; // Mật khẩu
