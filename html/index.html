@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Quản Lý Thư Viện</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="header-text">
+                <h1>HỆ THỐNG QUẢN LÝ THƯ VIỆN</h1>
+                <h2>TRƯỜNG PHỔ THÔNG</h2>
+            </div>
+        </div>
+        <div class="header-right">
+            <a href="#" class="header-link">About</a>
+            <a href="#" class="header-link">Đăng ký</a>
+            <a href="#" class="header-link">Liên hệ</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <button class="start-button">START</button>
+    </div>
+</body>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('../assets/img/back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: #006600;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-text h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header-right {
+    display: flex;
+    gap: 15px;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: #218838;
+}
+
+</style>
+</html>
