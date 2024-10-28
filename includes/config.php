@@ -1,10 +1,10 @@
 
 <?php 
 // Định nghĩa các thông số kết nối.
-define('DB_SERVER', 'lam-123.database.windows.net');
-define('DB_USER', 'admin001'); // Tên người dùng SQL Server của bạn
-define('DB_PASS', 'Dinhlam2110'); // Mật khẩu của bạn
-define('DB_NAME', 'nhom7-2'); // Tên cơ sở dữ liệu là "nhom7-2"
+define('DB_SERVER', 'qltv1.database.windows.net');
+define('DB_USER', 'admin123'); // Tên người dùng SQL Server của bạn
+define('DB_PASS', 'Loan2002@'); // Mật khẩu của bạn
+define('DB_NAME', 'qltv1'); // Tên cơ sở dữ liệu là "nhom7-2"
 
 // Thiết lập kết nối cơ sở dữ liệu.
 try {
